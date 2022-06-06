@@ -22,9 +22,9 @@ async function voucher(){
     }
 }
 voucher();
-    function append(data){
+    function append(item){
          let container=document.getElementById("voucher_list")
-        data.map(function(el){
+        item.forEach(function(el){
         console.log(el)
         let box=document.createElement("div")
         let image=document.createElement("img")
